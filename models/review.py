@@ -1,20 +1,10 @@
 #!/usr/bin/python3
-"""This module creates a Place class"""
-
+"""Contains the Review model"""
 from models.base_model import BaseModel
 
 
-class Place(BaseModel):
-    """Class for managing place objects"""
-
-    city_id = ""
+class Review(BaseModel):
+    """Implements the Review model"""
+    place_id = ""
     user_id = ""
-    name = ""
-    description = ""
-    number_rooms = 0
-    number_bathrooms = 0
-    max_guest = 0
-    price_by_night = 0
-    latitude = 0.0
-    longitude = 0.0
-    amenity_ids = []
+    text = ""

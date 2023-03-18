@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""This module creates a User class"""
-
+"""Contains the City model"""
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """Class for managing city objects"""
-
+    """Implements the City class"""
     state_id = ""
     name = ""
